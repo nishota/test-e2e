@@ -1,0 +1,143 @@
+[
+  {
+    "description": "\tログインページ(仮)のテスト",
+    "keyword": "Feature",
+    "name": "ログインページ(仮)",
+    "line": 2,
+    "id": "ログインページ(仮)",
+    "tags": [],
+    "uri": "ログインページ(仮).auto.feature",
+    "elements": [
+      {
+        "id": "ログインページ(仮);初期表示確認",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "初期表示確認",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "\"/\"にアクセスする",
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "タイトルに\"ログイン\"がある",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "\"エンドユーザ\"ボタンがある",
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "\"運営者\"ボタンがある",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ログインページ(仮);\"エンドユーザ\"ボタン押下",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "\"エンドユーザ\"ボタン押下",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "\"/\"にアクセスする",
+            "result": {
+              "status": "passed",
+              "duration": 96000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "\"エンドユーザ\"ボタンをクリックする",
+            "result": {
+              "status": "passed",
+              "duration": 104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "\"/ForEnduser\"に遷移する",
+            "result": {
+              "status": "passed",
+              "duration": 4000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "ログインページ(仮);\"運営者\"ボタン押下",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "\"運営者\"ボタン押下",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "\"/\"にアクセスする",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "\"運営者\"ボタンをクリックする",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "\"/ForManager\"に遷移する",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
